@@ -13,7 +13,7 @@ public class GitdemoApplication {
         SpringApplication.run(GitdemoApplication.class, args);
     }
 
-    @GetMapping("/hello-spring")
+    @GetMapping("/hello-there-spring")
     String greet(){
         return "Hello, Spring!";
     }
